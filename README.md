@@ -3,7 +3,7 @@
 ## Introduction
 
 A VueJS front end using the Django REST Framework API created in:
-https://github.com/richardgiddings/simple_api_app
+https://github.com/anonymousapps/simple_api_app
 
 Features:
 
