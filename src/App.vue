@@ -91,10 +91,7 @@ export default {
 		},
 
 		async navigation(link) {
-			const { data } = await this.axios.get(
-												link, 
-												{withCredentials: false,}
-										);
+			const { data } = await this.axios.get(link,{withCredentials: false,});
 			this.tasks = data.tasks;
 			this.links = data.links;
 		},
